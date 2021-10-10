@@ -1,0 +1,5 @@
+{
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.useTabs": true,
+    "prettier.withNodeModules": true
+}

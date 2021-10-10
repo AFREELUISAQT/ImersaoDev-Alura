@@ -53,12 +53,10 @@ table {
 	--color-lp-clear: #e3e8ec;
 }
 
-
 body {
 	font-family: "Calibri", "sans-serif";
 	background-color: var(--color-bg);
 }
-
 
 header {
 	display: flex;
@@ -200,7 +198,7 @@ main h1 {
 
 .container-projeto {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding: 30px;
 	color: var(--color-primary);
 	background: linear-gradient(45deg, #202125, #23262b);
@@ -223,16 +221,6 @@ main h1 {
 	justify-content: space-around;
 	outline: none;
 	text-decoration: none;
-}
-
-.projetos img {
-	max-width: 250px;
-	border-radius: 12px;
-	transition: all 1s;
-}
-
-.projetos img:hover {
-	transform: scale(1.12);
 }
 
 .projetos div {
@@ -277,7 +265,7 @@ main h1 {
 .projetos .like {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: flex-end;
 }
 
@@ -437,9 +425,7 @@ footer p {
 	color: #fff;
 }
 
-
 @media screen and (max-width: 800px) {
-
 	header {
 		display: block;
 		margin: 30px;
@@ -479,12 +465,9 @@ footer p {
 	.container-projeto img {
 		margin-right: 15px;
 	}
-
 }
 
-
 @media screen and (max-width: 540px) {
-
 	.infors-perfil h1 {
 		font-size: 18pt;
 	}
@@ -553,12 +536,9 @@ footer p {
 	.container-projeto .like p {
 		text-align: center;
 	}
-
 }
 
-
 @media screen and (max-width: 400px) {
-
 	.contato button {
 		padding: 10px;
 		font-size: 10pt;

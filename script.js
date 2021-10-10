@@ -2,43 +2,43 @@ var linkProjetos = [
 	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/VwWQaOE",
 		title: "Calculadora de Média",
-		like: 0
+		like: 0,
 	},
 	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/XWgEqrY",
 		title: "Conversor de Moedas",
-		like: 0
+		like: 0,
 	},
 	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/eYRMLEP",
 		title: "Mentalista",
-		like: 0
+		like: 0,
 	},
 	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/NWgBBRO",
 		title: "Alura Verão",
-		like: 0
+		like: 0,
 	},
-  	{
+	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/oNwMPWM",
 		title: "Alura Flix",
-		like: 0
+		like: 0,
 	},
-  {
+	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/ExXeQbO",
 		title: "Tabela de Classificação",
-		like: 0
+		like: 0,
 	},
-  {
+	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/PojyJoM",
 		title: "Super Trunfo",
-		like: 0
+		like: 0,
 	},
-  {
+	{
 		linkProjeto: "https://codepen.io/afreeluisaqt/pen/jOweGYm",
 		title: "Super Trunfo RELOAD",
-		like: 0
-	}
+		like: 0,
+	},
 ];
 
 function Projetos() {
@@ -51,12 +51,11 @@ function Projetos() {
 
 		elemento += '<div class="container-projeto">';
 		elemento += '<a href="' + projeto.linkProjeto + '" target="_blanck">';
-		
+
 		elemento += "<div>";
-		
+
 		elemento += "<h1>" + projeto.title + "</h1>";
-		
-		
+
 		elemento += "</div>";
 		elemento += "</a>";
 		elemento += '<div class="like" onclick="like(' + i + ')">';
